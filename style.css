@@ -670,6 +670,13 @@ div i {
         font-size: 3rem;
         letter-spacing: normal;
     }
+    
+    .sidebar {
+        opacity:0.9;
+    }
+    
+    .menu-link {
+        color:white; }
 
 }
 
