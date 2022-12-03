@@ -613,20 +613,21 @@ div i {
     }
 
     .logo {
-        font-size: 2rem;
+        font-size: 4rem;
         letter-spacing: normal;
     }
 
     .banner h1 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .banner p {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .hamburger {
-        right: 1rem;
+        right: 2rem;
+        top:2rem
     }
 
     .container .container-recomanda {
