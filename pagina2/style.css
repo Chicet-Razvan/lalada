@@ -1,0 +1,109 @@
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(25, 188, 238);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header a {
+    font-size: 2rem;
+    margin: 3rem;
+    text-decoration: none;
+    font-family: 'open sans';
+    font-weight: 700;
+    color: white;
+}
+
+
+.faq-heading{
+   
+    color: rgb(75, 74, 74);
+    
+    padding: 20px 60px;
+    font-size: 3.5rem;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+  opacity: 0.3;
+  border-color: rgb(25, 188, 238);
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    font-size: 2rem;
+    
+
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+   
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    font-size: 2rem;
+    color:#444;
+    transition: all 1s;
+    
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 2rem;
+    color: rgb(61, 14, 100);
+    float: right;
+    margin-left: 5px;
+    
+    
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
