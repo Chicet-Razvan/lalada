@@ -107,3 +107,8 @@ flex-direction: column;
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
 }
+
+@media(max-width:550px) {
+    html {
+        font-size: 40%;
+    }
