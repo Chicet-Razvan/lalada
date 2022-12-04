@@ -643,7 +643,8 @@ div i {
     }
 
     .hamburger {
-        right: 1rem;
+        right: 1.2rem;
+        top:2rem;
     }
 
     .section-2 .container p {
