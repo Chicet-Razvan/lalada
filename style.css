@@ -712,6 +712,13 @@ div i {
     .citate {
         opacity:1;
 }
+    .citate h4 {
+       font-size: 3rem;
+    }
+
+    .citate h5 {
+        font-size: 2rem;
+    }
 
 /*
 @media(max-height:800px) {
