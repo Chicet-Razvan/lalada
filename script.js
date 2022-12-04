@@ -9,6 +9,12 @@ const zara = document.querySelectorAll('.citate')
 
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
   console.log('e pe mobil')
+    if (window.pageYOffset + window.innerHeight >= section2content.offsetTop ) {
+    for(i=0;i<zara.length;i++) {
+        zara[i].classList.add('event')
+    }
+    
+}
 }
 
 else{
