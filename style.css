@@ -283,7 +283,7 @@ html {
 
 .section-2 .container p {
     width: 70%;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 300;
     color: #3a3a3a;
     font-family: 'open sans';
@@ -422,7 +422,7 @@ html {
 }
 
 .section3-container .stanga p{
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-family: 'open sans';
     font-weight: 700;
      color: rgb(63, 62, 62);
@@ -550,6 +550,21 @@ div i {
     
 }
 
+.date .social-media {
+    position: relative;
+    padding-top: 2rem;
+    
+    
+}
+
+.date .social-media i {
+    background-color: rgb(25, 188, 238);
+}
+
+
+
+
+
 /* responsive */
 @media(max-width:1500px) {
     html {
@@ -585,11 +600,13 @@ div i {
     .logo {
         font-size: 3rem;
     }
+
+   
 }
 
 @media(max-width:900px){
     .logo{
-        letter-spacing: 1rem;
+        letter-spacing: 0.5rem;
     }
 
     .section3-container .stanga p{
@@ -613,21 +630,24 @@ div i {
     }
 
     .logo {
-        font-size: 4rem;
+        font-size: 2rem;
         letter-spacing: normal;
     }
 
     .banner h1 {
-        font-size: 4rem;
-    }
-
-    .banner p {
         font-size: 3rem;
     }
 
+    .banner p {
+        font-size: 2rem;
+    }
+
     .hamburger {
-        right: 2rem;
-        top:2rem
+        right: 1rem;
+    }
+
+    .section-2 .container p {
+        font-size: 2rem;
     }
 
     .container .container-recomanda {
@@ -660,6 +680,7 @@ div i {
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
+        
     }
 
     .section-4 .harta{
@@ -670,13 +691,37 @@ div i {
         font-size: 3rem;
         letter-spacing: normal;
     }
-    
-    .sidebar {
-        opacity:0.9;
-    }
-    
-    .menu-link {
-        color:white; }
 
+    .sidebar {
+        opacity: 0.9;
+    }
+
+    .sidebar .menu-link {
+        color: white;
+        cursor: pointer;
+    }
+
+    .citate i {
+        font-size: 10rem;
+    }
+
+    .social-media a i {
+        background-color: #0556f8;
+    }
 }
+
+/*
+@media(max-height:800px) {
+    .logo {
+        letter-spacing: normal;
+    }
+    .section-3 {
+        height: 50rem;
+        padding: 10rem;
+    }
+    .section-4 {
+        height: 80rem;
+    }
+}
+
 
