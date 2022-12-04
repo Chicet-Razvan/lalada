@@ -510,8 +510,11 @@ html {
     margin: 1rem;
     font-size: 2.2rem;
     text-align: center;
-   
     
+}
+
+.date .telefon {
+    text-decoration:none;
 }
 
 .date div.antet {
